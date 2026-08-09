@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - YUFO</title>
+<style>
+  :root {
+    --bg: #0f1220;
+    --card: #171b2e;
+    --text: #e8e9f3;
+    --muted: #a3a7c2;
+    --accent: #7c8cff;
+    --border: #2a2f4a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+  }
+  header {
+    margin-bottom: 32px;
+  }
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 28px;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 32px;
+    margin-bottom: 10px;
+    color: var(--accent);
+  }
+  h2:first-child { margin-top: 0; }
+  p, li { color: var(--text); }
+  ul { padding-left: 20px; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 32px;
+    color: var(--muted);
+    font-size: 0.85rem;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Privacy Policy</h1>
+      <div class="updated">Ultimo aggiornamento: <span id="last-updated">GG/MM/AAAA</span></div>
+    </header>
+
+    <div class="card">
+      <h2>1. Introduzione</h2>
+      <p>
+        La presente Privacy Policy descrive le modalità di trattamento dei dati relative a
+        <strong>YUFO</strong> ("il Gioco"), sviluppato con motore Unity.
+      </p>
+
+      <h2>2. Nessuna raccolta di dati personali</h2>
+      <p>
+        <strong>YUFO</strong> non raccoglie, memorizza né trasmette alcun dato personale
+        degli utenti. Il gioco:
+      </p>
+      <ul>
+        <li>non richiede registrazione o account;</li>
+        <li>non contiene pubblicità;</li>
+        <li>non utilizza strumenti di analisi (analytics) o tracciamento;</li>
+        <li>non si connette a server esterni per inviare dati sull'utente o sul dispositivo;</li>
+        <li>non condivide alcuna informazione con terze parti.</li>
+      </ul>
+
+      <h2>3. Dati salvati localmente</h2>
+      <p>
+        I progressi di gioco (punteggi, livelli, impostazioni) vengono salvati esclusivamente
+        <strong>in locale sul dispositivo</strong> dell'utente e non vengono mai trasmessi altrove.
+        Disinstallando l'app, questi dati vengono eliminati automaticamente.
+      </p>
+
+      <h2>4. Motore di gioco (Unity)</h2>
+      <p>
+        Il Gioco è realizzato con il motore Unity. Nella configurazione attuale non sono attivati
+        servizi Unity che raccolgono dati (es. Unity Analytics, Unity Ads). Qualora in futuro
+        venissero integrati servizi di terze parti, questa Privacy Policy sarà aggiornata di
+        conseguenza prima del rilascio della nuova versione.
+      </p>
+
+      <h2>5. Dati dei minori</h2>
+      <p>
+        Poiché il Gioco non raccoglie alcun dato personale, può essere utilizzato in sicurezza anche
+        da utenti minorenni, senza rischi legati alla privacy.
+      </p>
+
+      <h2>6. Modifiche a questa Privacy Policy</h2>
+      <p>
+        Questa Privacy Policy potrà essere aggiornata in caso di modifiche al funzionamento del
+        Gioco (ad esempio in caso di introduzione futura di pubblicità o servizi di analisi).
+        La data dell'ultimo aggiornamento è indicata in cima alla pagina.
+      </p>
+
+      <h2>7. Contatti</h2>
+      <p>
+        Per qualsiasi domanda relativa a questa Privacy Policy, puoi contattarci all'indirizzo:
+        <strong>[tua-email@esempio.com]</strong>
+      </p>
+    </div>
+
+    <footer>
+      &copy; <span id="year"></span> [Nome dello Sviluppatore / Studio]
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
